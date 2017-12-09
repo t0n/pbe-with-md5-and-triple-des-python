@@ -2,10 +2,10 @@
 
     pbe_with_md5_and_triple_des
     ~~~~~~~~~~~~
-    This module ...
+    This module provides ciphers that implement 'PBE With MD5 And Triple DES' and 'PBE With MD5 And DES' algorithms
 
-    :copyright: (c) 2017 by
-    :license:
+    :copyright: (c) 2017 by Anton Koba (anton.koba@gmail.com)
+    :license: MIT
 
 """
 
