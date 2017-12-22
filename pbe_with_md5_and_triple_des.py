@@ -116,7 +116,7 @@ class AbstractPBEWithMD5AndDES(ABC):
         message_length = len(decrypted_message)
         pad_value = decrypted_message[-1]
 
-        if pad_value >= 8:
+        if pad_value > 8:
             # no padding used
             return decrypted_message
 
